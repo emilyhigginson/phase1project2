@@ -1,0 +1,109 @@
+.adjust-line-height{
+    line-height: 1em;
+
+}
+header {
+    padding: 0.5rem;
+    width: 100%;
+    color: white;
+    background-color: #e6b48a;
+    align-items: center;
+    line-height: 1em;
+  }
+body {    
+    padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', monospace;
+  font-variant: small-caps;
+  background-color: #aa6c39;;
+  line-height: 1em;
+}
+#demo {
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+    line-height: 1em;
+}
+button {
+    font-size: 30px;
+    padding: 15px 32px;
+    background-color: #F3DFC5;
+    color: black;
+    font-family: 'Times New Roman', monospace;
+    line-height: 1em;
+}
+ul {
+    text-align: center;
+    border-color:black  ;
+    line-height: .8em;
+}
+/* #name{
+    text-emphasis: 60px;
+}
+#ances{
+    color: red;
+} */
+div {
+  width: 250px;
+  border: 15px solid rgb(241, 226, 142);
+  padding: 30px;
+  margin: 20px;
+  color: #aa6c39;
+  background-color: #F8ECDC;
+}
+#newCard {
+    width: 640px;
+}
+
+#description {
+    width: 614px;
+    margin: 20px auto 0;
+    font-variant: normal;
+    font-weight: lighter;
+}
+#formDiv{
+    flex: 0 1 auto;
+    height: 60px;
+    margin-right: 1rem;
+    width: 100%;
+  border: 15px solid rgb(241, 226, 142);
+  padding: 30px;
+  margin: 30px;
+    cursor: pointer;
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: black;
+    font-size: 15px;
+;
+}
+#character-bar {
+    flex: 0 1 auto;
+    height: 50px;
+    margin-right: 1rem;
+    width: 300px;
+  border: 15px solid rgb(241, 226, 142);
+  padding: 30px;
+  margin: 20px;
+    cursor: pointer;
+    width: 500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    color:#cb4154;
+    font-size: 20px;
+    position: relative;
+    
+  }
+  .image {
+      height: 250px;
+
+  }
+  
+   
+  
