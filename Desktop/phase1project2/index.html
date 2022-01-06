@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HP TRADING CARDS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1> ⚡HARRY POTTER TRADING CARDS⚡ </h1>
+    </header>
+    <button onclick= "welcomeFunction()"> 🪄 Click here to begin!</button>
+<p id= "demo"></p>
+<script>
+    function welcomeFunction() {
+      let text;
+      let person = prompt("Please enter your name:");
+      if (person == null || person == "") {
+        text = "";
+      } else {
+        text = "Welcome, Wizard " + person + "! Let the magic beign!";
+      }
+      document.getElementById("demo").innerHTML = text;
+    }
+    </script>
+
+    <h3>
+    	Click on a character's name to generate a trading card:
+        (scroll through the list to view all)
+    </h3>
+    <div id="character-bar">
+    </div>
+    <div id="character-info" > 
+        <img class="image" id= "character-picture" src= "https://jasperbooks.com/wp-content/uploads/2013/07/600x600.gif" />
+        <h2 class="name" id= "name"> Name: </h2>
+        <h3 class="house" id="house">Hogwarts House:</h3>
+        <h3 class="ancestry" id="ancestry">Ancestry:</h3>
+        
+      </div>
+    
+
+<h3> ✨Your turn, Wizard!✨ </h3>
+<h4>Complete the form below to make your very own trading card! </h4>
+
+  
+  <div id= formDiv>
+<form id="newCard">
+<label for="name">Name: </label>
+<input type="text" id="wizardName" name="wizardName" required/>
+<label for="house">House:</label>
+<input type="text" id="wizardHouse" name="wizardHouse" required/>
+<label for="bloodType">Ancestry:</label>
+<input type="text" id="bloodType" name="bloodType" required/>
+<label for="image">A URL of a photo of you: </label>
+<input type="text" id="newImage" name="image" required/>
+<input type="submit" value="Create Card" />
+</form>
+  </div>
+   
+</body>
+</html>
